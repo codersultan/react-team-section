@@ -1,0 +1,76 @@
+.team-section {
+  padding: 100px;
+}
+
+.team-header h2 {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.team-header p {
+  font-size: 18px;
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+  line-height: 32px;
+}
+
+.team-body {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+.team-item {
+  /* width: 33.33%; */
+  flex: 1;
+  border: 1px solid #ddd;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.team-item img {
+  width: 100%;
+}
+
+.team-item h3 {
+  color: #111;
+  font-size: 24px;
+  padding: 20px 20px 10px;
+}
+.team-item h4 {
+  color: red;
+  font-size: 18px;
+  padding: 0px 20px 20px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  bottom: 130px;
+  right: -40px;
+  transition: 0.4s;
+}
+
+.team-item:hover .social {
+  right: 10px;
+}
+
+.social a {
+  display: inline-block;
+  border: 2px solid #000;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social a:hover {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3), -3px -3px 10px rgba(0, 0, 0, 0.3);
+}
